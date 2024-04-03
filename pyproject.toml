@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exemplos-pydantic"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Joia <rafael.joia@fgv.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
